@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: palevioletred;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+
+article {
+    flex: 2;
+    padding: 20px;
+    background-color: white;
+    overflow-y: auto; 
+}
+
+aside {
+    flex: 1;
+    padding: 20px;
+    background-color: lightgrey;
+    overflow-y: auto; 
+}
+
+header, footer {
+    width: 100%;
+}
+
+main {
+    border: 1px solid black;
+    gap: 20px;
+}
